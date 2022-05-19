@@ -7,6 +7,10 @@ This can be used to allow AJAX and other requests to the Magento 2 REST API from
 ## How to install
 
 ### 1. via composer
+```
+composer require electrobayan/magento-2-cors-requests
+```
+ OR
 
 Edit `composer.json`
 
