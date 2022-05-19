@@ -14,18 +14,18 @@ Edit `composer.json`
 {
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/splashlab/magento-2-cors-requests"
+            "type": "git",
+            "url": "https://github.com/electrobayan/magento-2-cors-requests"
         }
     ],
     "require": {
-        "splashlab/magento-2-cors-requests": "dev-master"
+        "splashlab/magento-2-cors-requests": "100.0.7"
     }
 }
 ```
 
 ```
-composer install
+composer install/update
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
