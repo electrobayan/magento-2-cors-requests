@@ -16,12 +16,6 @@ Edit `composer.json`
 
 ```
 {
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/electrobayan/magento-2-cors-requests"
-        }
-    ],
     "require": {
         "splashlab/magento-2-cors-requests": "100.0.7"
     }
